@@ -2,6 +2,7 @@ package fr.lernejo.guessgame;
 
 import fr.lernejo.logger.*;
 
+import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 public class Simulation {
@@ -22,10 +23,8 @@ public class Simulation {
      * @return true if the player have guessed the right number
      */
     private boolean nextRound() {
-        logger.log("Enter a number");
         long numberUser = player.askNextGuess();
         if(numberUser == this.numberToGuess) {
-            logger.log("You guessed the number ! It was " + numberUser + ".");
             return true;
         } else if(numberUser <= this.numberToGuess) {
             player.respond(true);
@@ -35,7 +34,28 @@ public class Simulation {
         return false;
     }
 
-    public void loopUntilPlayerSucceed() {
+    /**
+     * old code
+     */
+    /*public void loopUntilPlayerSucceed() {
         while (!nextRound());
+    }*/
+
+    public void loopUntilPlayerSucceed(long maxLoop) {
+        boolean end = nextRound();
+        int nbLoop = 1;
+        long debTime = System.currentTimeMillis();
+        while (!end && nbLoop < maxLoop){
+            end = nextRound();
+            nbLoop++;
+        }
+        long endTime = System.currentTimeMillis();
+        String message;
+        if (end) message = "\tYou won!";
+        else message = "\tYou failed... Next time maybe!";
+        SimpleDateFormat sdf = new SimpleDateFormat("mm:ss.SSS");
+
+        String playTime = sdf.format(endTime - debTime);
+        logger.log(message + "\nThe play takes " + playTime);
     }
 }
