@@ -1,7 +1,6 @@
 package fr.lernejo.guessgame;
 
-import fr.lernejo.logger.ConsoleLogger;
-import fr.lernejo.logger.Logger;
+import fr.lernejo.logger.*;
 
 import java.security.SecureRandom;
 
@@ -9,7 +8,7 @@ public class Launcher {
 
     public static Simulation simulation;
     public static long maxLoop;
-    public static Logger logger = new ConsoleLogger();
+    public static Logger logger = LoggerFactory.getLogger("launcher");
 
     public static void main(String[] args) {
 
@@ -25,7 +24,7 @@ public class Launcher {
             simulation = new Simulation(new ComputerPlayer());
             simulation.initialize(Integer.parseInt(args[1]));
         } else {
-            logger.log("Your must write arguments to play :\n - To play with the game, enter '-interactive'; \n - To let the computer play, enter '-auto' and a positiv number that it will try to find.");
+            logger.log("Your must write arguments to play :\n - To play with the game, enter '-interactive'; \n - To let the computer play, enter '-auto' and a positiv number that it will try to find.\n");
             System.exit(-1);
         }
 

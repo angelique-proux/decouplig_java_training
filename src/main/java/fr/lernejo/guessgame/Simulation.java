@@ -51,11 +51,11 @@ public class Simulation {
         }
         long endTime = System.currentTimeMillis();
         String message;
-        if (end) message = "\tYou won!";
-        else message = "\tYou failed... Next time maybe!";
+        if (end) message = "You won !";
+        else message = "You failed... Next time maybe!";
         SimpleDateFormat sdf = new SimpleDateFormat("mm:ss.SSS");
 
         String playTime = sdf.format(endTime - debTime);
-        logger.log(message + "\nThe play takes " + playTime);
+        logger.log(message + "\tThe play takes " + playTime + ".\n");
     }
 }

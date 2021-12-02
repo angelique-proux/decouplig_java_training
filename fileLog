@@ -1,0 +1,54 @@
+2021:12:02 11:08:45.205 launcher > The number to guess is between 0 and 100.
+2021:12:02 11:08:45.293 computer > Computer's number : 77
+2021:12:02 11:08:45.294 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:45.299 computer > Computer's number : 69
+2021:12:02 11:08:45.301 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:45.306 computer > Computer's number : 50
+2021:12:02 11:08:45.307 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:45.312 computer > Computer's number : 33
+2021:12:02 11:08:45.313 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:45.315 computer > Computer's number : 27
+2021:12:02 11:08:45.316 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:45.317 computer > Computer's number : 6
+2021:12:02 11:08:45.317 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:45.318 computer > Computer's number : 12
+2021:12:02 11:08:45.319 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:45.319 computer > Computer's number : 16
+2021:12:02 11:08:45.320 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:45.320 computer > Computer's number : 24
+2021:12:02 11:08:45.321 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:45.322 computer > Computer's number : 20
+2021:12:02 11:08:45.322 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:45.323 computer > Computer's number : 20
+2021:12:02 11:08:45.324 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:45.325 computer > Computer's number : 22
+2021:12:02 11:08:45.325 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:45.326 computer > Computer's number : 21
+2021:12:02 11:08:45.442 simulation > You won !	The play takes 00:00.030.
+
+2021:12:02 11:08:49.091 launcher > The number to guess is between 0 and 100.
+2021:12:02 11:08:49.214 computer > Computer's number : 39
+2021:12:02 11:08:49.219 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:49.224 computer > Computer's number : 30
+2021:12:02 11:08:49.225 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:49.226 computer > Computer's number : 26
+2021:12:02 11:08:49.226 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:49.227 computer > Computer's number : 6
+2021:12:02 11:08:49.238 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:49.239 computer > Computer's number : 17
+2021:12:02 11:08:49.248 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:49.249 computer > Computer's number : 18
+2021:12:02 11:08:49.249 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:49.251 computer > Computer's number : 20
+2021:12:02 11:08:49.252 computer > Computer's number is lower than the number to find.
+2021:12:02 11:08:49.253 computer > Computer's number : 23
+2021:12:02 11:08:49.254 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:49.255 computer > Computer's number : 22
+2021:12:02 11:08:49.255 computer > Computer's number is greater than the number to find.
+2021:12:02 11:08:49.256 computer > Computer's number : 21
+2021:12:02 11:08:49.417 simulation > You won !	The play takes 00:00.033.
+
+2021:12:02 11:08:58.456 launcher > Your must write arguments to play :
+ - To play with the game, enter '-interactive'; 
+ - To let the computer play, enter '-auto' and a positiv number that it will try to find.
+
