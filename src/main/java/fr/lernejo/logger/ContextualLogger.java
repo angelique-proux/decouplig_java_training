@@ -8,7 +8,7 @@ public class ContextualLogger implements Logger{
     public Logger delegateLogger;
     public String callerClass;
 
-    public ContextualLogger(Logger logger, String className){
+    public ContextualLogger(String className, Logger logger){
         this.delegateLogger = logger;
         this.callerClass = className;
     }
