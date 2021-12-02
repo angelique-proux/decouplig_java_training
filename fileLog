@@ -52,3 +52,31 @@
  - To play with the game, enter '-interactive'; 
  - To let the computer play, enter '-auto' and a positiv number that it will try to find.
 
+2021:12:02 11:23:17.032 launcher > The number to guess is between 0 and 100.
+2021:12:02 11:23:17.094 computer > Computer's number : 78
+2021:12:02 11:23:17.097 computer > Computer's number is greater than the number to find.
+2021:12:02 11:23:17.098 computer > Computer's number : 32
+2021:12:02 11:23:17.098 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.099 computer > Computer's number : 48
+2021:12:02 11:23:17.104 computer > Computer's number is greater than the number to find.
+2021:12:02 11:23:17.106 computer > Computer's number : 41
+2021:12:02 11:23:17.107 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.108 computer > Computer's number : 44
+2021:12:02 11:23:17.109 computer > Computer's number is greater than the number to find.
+2021:12:02 11:23:17.109 computer > Computer's number : 42
+2021:12:02 11:23:17.110 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.111 computer > Computer's number : 42
+2021:12:02 11:23:17.111 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.112 computer > Computer's number : 42
+2021:12:02 11:23:17.113 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.114 computer > Computer's number : 42
+2021:12:02 11:23:17.114 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.115 computer > Computer's number : 42
+2021:12:02 11:23:17.116 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.116 computer > Computer's number : 42
+2021:12:02 11:23:17.117 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.119 computer > Computer's number : 42
+2021:12:02 11:23:17.119 computer > Computer's number is lower than the number to find.
+2021:12:02 11:23:17.120 computer > Computer's number : 43
+2021:12:02 11:23:17.214 simulation > You won !	The play takes 00:00.024.
+
